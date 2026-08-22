@@ -1,4 +1,4 @@
-let prompt = require("prompt-sync")();
+
 
 let arr = [10,30,40,40,40,50,80]
 let rev = []

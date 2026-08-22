@@ -1,4 +1,4 @@
-let prompt = require("prompt-sync")();
+
 
 let arr = [4, 5, 9, 7]
 
