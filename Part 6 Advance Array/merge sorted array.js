@@ -7,7 +7,7 @@ let i = 0;
 let j = 0;
 let idx = 0
 
-while(i<arr1.length || j <arr2.length){
+while(i<arr1.length && j <arr2.length){
 
     if(arr1[i]<arr2[j]){
         temp[idx] = arr1[i]
@@ -19,6 +19,18 @@ while(i<arr1.length || j <arr2.length){
         j++
         idx++
     }
+}
+
+while(i<arr1.length){
+    temp[idx]=arr1[i]
+    i++
+    idx++
+}
+
+while(j<arr2.length){
+    temp[idx]=arr2[j]
+    j++
+    idx++
 }
 
 console.log(temp)
