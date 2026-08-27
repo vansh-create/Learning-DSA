@@ -1,8 +1,7 @@
 let arr = [1, 2, 3, 4, 5, 8, 10]
 
-let k = 7
-
-for (let j = 1; j <= (k%arr.length); j++) {
+let k = 9
+for (let j = 1; j <= k; j++) {
     let i = 1
     let temp = arr[0]
     while (i < arr.length) {
