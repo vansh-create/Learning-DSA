@@ -1,7 +1,7 @@
 
 let sum = 0
 function hello(n){
-    if(n==1) return sum += n
+    if(n==0) return 
     sum += n
     hello(n-1)
 }
