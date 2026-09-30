@@ -21,3 +21,4 @@ for(let i = fact2.length-1; i>=0; i--){
         return console.log(fact2[i])
     }
 }
+
