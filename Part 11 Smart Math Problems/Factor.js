@@ -1,12 +1,19 @@
-// Simple factor upto half 
+// Mathematics factor upto its sqrt 
 let num = 30
 let arr= []
-for (let i = 1; i <= (num / 2); i++) {
+let sqrt = Math.floor(Math.sqrt(num))
+
+for (let i = 1; i <= sqrt; i++) {
     if (num % i == 0) {
       arr.push(i)
     }
 }
 
-arr.push(num)
-console.log(arr)
+for (let i = sqrt; i >= 1; i--) {
+    if (num % i == 0) {
+      arr.push(num/i)
+    }
+}
 
+
+console.log(arr)
